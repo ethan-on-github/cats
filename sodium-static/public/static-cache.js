@@ -26,7 +26,7 @@ self.addEventListener('install', (event) => {
           '/settings/css-editor/',
           '/github/',
           '/apps/',
-          '/games/',
+          '/cats/',
           '/sodium.png',
           '/assets/css/montserrat.css',
           '/assets/img/amoled-waves.svg',
@@ -69,7 +69,7 @@ self.addEventListener('install', (event) => {
           '/assets/js/games.js',
           '/ruffle',
           '/ruffleframe',
-          '/games/run3/versionselect',
+          '/cats/run3/versionselect',
         ]);
       })
     );

@@ -1,42 +1,42 @@
 User-agent: *
 Allow: /
-Allow: /games
+Allow: /cats
 Allow: /apps
 Allow: /settings
 
 User-agent: Googlebot
 Allow: /
-Allow: /games
+Allow: /cats
 Allow: /apps
 Allow: /settings
 
 User-agent: Bingbot
 Allow: /
-Allow: /games
+Allow: /cats
 Allow: /apps
 Allow: /settings
 
 User-agent: Slurp
 Allow: /
-Allow: /games
+Allow: /cats
 Allow: /apps
 Allow: /settings
 
 User-agent: DuckDuckBot
 Allow: /
-Allow: /games
+Allow: /cats
 Allow: /apps
 Allow: /settings
 
 User-agent: Baiduspider
 Allow: /
-Allow: /games
+Allow: /cats
 Allow: /apps
 Allow: /settings
 
 User-agent: YandexBot
 Allow: /
-Allow: /games
+Allow: /cats
 Allow: /apps
 Allow: /settings
 
