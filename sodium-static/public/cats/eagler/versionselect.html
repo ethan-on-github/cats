@@ -28,46 +28,48 @@
       }
     </style>
     <script>
-      function html() {
+      function eag() {
         const proxyOption = localStorage.getItem('proxyOption'); const urlToLoad = proxyOption && proxyOption.toLowerCase() === 'dynamic'
-        ? `${window.location.origin}/service/route?url=https://lekug.github.io/tn6pS9dCf37xAhkJv/`
-        : `${window.location.origin}/sw/${Ultraviolet.codec.xor.encode('https://lekug.github.io/tn6pS9dCf37xAhkJv/')}`;
+        ? `${window.location.origin}/service/route?url=https://eaglercraft.com/mc/1.5.2/`
+        : `${window.location.origin}/sw/${Ultraviolet.codec.xor.encode('https://eaglercraft.com/mc/1.5.2/')}`;
         window.location.href = urlToLoad;
       }
 
-      function flash() {
-        sessionStorage.removeItem('flashswf');
-        sessionStorage.setItem('flashswf', 'https://cdn.z1g-project.pages.dev/sodium/swfs/run3.swf')
-        window.location.href = "ruffle.html#noui";
+      function pres() {
+        const proxyOption2 = localStorage.getItem('proxyOption'); const urlToLoad2 = proxyOption2 && proxyOption2.toLowerCase() === 'dynamic'
+        ? `${window.location.origin}/service/route?url=https://precisionclient-88k.pages.dev`
+        : `${window.location.origin}/sw/${Ultraviolet.codec.xor.encode('https://precisionclient-88k.pages.dev')}`;
+        window.location.href = urlToLoad2;
       }
 
-      function kong() {
-        sessionStorage.removeItem('flashswf');
-        sessionStorage.setItem('flashswf', 'https://cdn.z1g-project.pages.dev/sodium/swfs/run3-kong.swf')
-        window.location.href = "ruffle.html#noui";
+      function x() {
+        const proxyOption3 = localStorage.getItem('proxyOption'); const urlToLoad3 = proxyOption3 && proxyOption3.toLowerCase() === 'dynamic'
+        ? `${window.location.origin}/service/route?url=https://eaglercraftx.pages.dev`
+        : `${window.location.origin}/sw/${Ultraviolet.codec.xor.encode('https://eaglercraftx.pages.dev')}`;
+        window.location.href = urlToLoad3;
       }
     </script>
   </head>
 
   <body>    
-    <h1 style="text-align: center;">Run 3</h1>
-    <h3 style="text-align: center;">Please Select a Version of Run 3 to play!</h3>
+    <h1 style="text-align: center;">EaglerCraft</h1>
+    <h3 style="text-align: center;">Please Select a Version of Eaglercraft to play!</h3>
 
     <div class="container-apps">
       <div class="column">
-        <a onclick="html()">
-        <img width="145" height="145" src="/games/assets/game7.jpg">
-        <p>Run 3 HTML</p></a>
+        <a onclick="eag()">
+        <img width="145" height="145" src="/cats/assets/game1.jpg">
+        <p>EaglerCraft</p></a>
       </div>
       <div class="column">
-        <a onclick="flash()">
-        <img width="145" height="145" src="/games/assets/game7.jpg">
-        <p>Run 3 Flash</p></a>
+        <a onclick="pres()">
+        <img width="145" height="145" src="/cats/assets/precision.png">
+        <p>Precision Client</p></a>
       </div>
       <div class="column">
-        <a onclick="kong()">
-        <img width="145" height="145" src="/games/assets/game7.jpg">
-        <p>Run 3 Flash (Kongregate)</p></a>
+        <a onclick="x()">
+        <img width="145" height="145" src="/cats/assets/game1.jpg">
+        <p>EaglerCraft X</p></a>
       </div>
     </div>
   </body>
