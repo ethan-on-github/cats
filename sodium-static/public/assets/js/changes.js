@@ -10,7 +10,7 @@ const currentTime = new Date().getTime();
 const timeThreshold = 7 * 24 * 60 * 60 * 1000;
 
 if (!lastUsedTime || currentTime - lastUsedTime > timeThreshold) {
-  changelogModal.style.display = 'block';
+  changelogModal.style.display = 'none';
 }
 
 localStorage.setItem('lastUsedTime', currentTime.toString());

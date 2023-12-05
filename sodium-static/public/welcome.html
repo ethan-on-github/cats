@@ -348,7 +348,8 @@ prevButton.addEventListener('click', prevSlide);
 skipButton.addEventListener('click', skipSlides);
 nextButton.addEventListener('click', nextSlide);
 
-showSlide(currentSlide);
+localStorage.setItem('firstRun', 'false');
+window.location.href = '/';
 </script>
 <script>
   function openImportFile() {
