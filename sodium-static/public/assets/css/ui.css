@@ -53,11 +53,11 @@
 }
 
 body {
-  background-color: #c4c4c4;
+  background-color: #27639f;
   background-image: url("../img/v2-waves.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: #c4c4c4;
+  color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
@@ -148,7 +148,7 @@ h1 {
   border-style: solid!important;
   border-width: 1px;
   border-radius: 25px;
-  background-color: #ffffff;
+  background-color: #0d89b2;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   -webkit-text-fill-color: white;
