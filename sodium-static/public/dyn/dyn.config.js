@@ -5,7 +5,7 @@ self.__dynamic$config = {
   logLevel: 3,
   bare: {
     version: 3,
-    path: "https://gobare.rubynetwork.tech/"
+    path: "https://phantomnetwork.cloud/bare/"
   },
   tab: {
     title: 'Service',
