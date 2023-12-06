@@ -66,7 +66,7 @@ self.addEventListener('install', (event) => {
           '/assets/js/proxhandler.js',
           '/assets/js/index.js',
           '/assets/img/logo.svg',
-          '/assets/js/games.js',
+          '/assets/js/cats.js',
           '/ruffle',
           '/ruffleframe',
           '/cats/run3/versionselect',
