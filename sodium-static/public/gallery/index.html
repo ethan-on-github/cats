@@ -21,13 +21,18 @@
   <script>
     const f = document.getElementById('form');
     const q = document.getElementById('query');
-
+    function prependHttps(url) {
+    if (!url.startsWith('http://') && !url.startsWith('https://')) {
+      return 'https://' + url;
+    }
+     else {
+      return url
+    }}
     function submitted(event) {
       event.preventDefault();
-      const win = window.open(q.value, '_self');
+      const win = window.open(prependHttps(q.value), '_self');
       win.focus();
     }
-
     f.addEventListener('submit', submitted);
   </script>
 </body>
